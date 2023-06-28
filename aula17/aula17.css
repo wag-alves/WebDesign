@@ -1,0 +1,62 @@
+header{
+    background: black;
+}
+h1{
+    color: white;
+    text-align: center;
+    padding: 8px 0px 74px 0px;
+    margin: 0;
+}
+nav li:hover{
+    background-color: gray;
+}
+li{
+    color: white;
+    border: gray solid 1px;
+    padding: 12px 88px;
+}
+ul{
+    padding: 0 300px 20px 300px;
+    margin: 0;
+    justify-content: space-evenly;
+    display: flex;
+    list-style-type: none;
+}
+section > div{
+    display: flex;
+    justify-content: space-around;
+}
+div div{
+    border: rgb(211, 211, 211) solid 2px;
+    width: 20em;
+    height: 17em;
+    border-radius: 10px;
+    margin: 10px 0;
+    background-color: white;
+}
+main{
+    width: 66em;
+    margin: 0 auto;
+    background-color: rgb(246, 246, 246);
+}
+.aqui{
+    border-radius: 100px;
+    height: 11em;
+    width: 11em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 115px;
+    width: 115px;
+}
+section{
+    padding: 26px 0;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}

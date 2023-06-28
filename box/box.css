@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+header{
+    background-image: linear-gradient(to right, #6BC8E6, #196C86);
+    padding: 1.2em;
+}
+header img{
+    padding-left: 2em;
+}
+div div{
+    border: 2px solid gainsboro;
+    border-radius: 7px;
+    display: block;
+}
+div{
+    display: flex;
+    margin: 10px;
+    width: 1300px;
+    min-height: 370px;
+}
+.direita{
+    text-align: right;
+    margin: 10px;
+    color: rgba(0, 0, 0, 0.4);
+}
+div img{
+    padding-left: 13px;
+    padding-bottom: 18px;
+}
+h1{
+    color: #005C85;
+    padding-left: 13px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+p{
+    padding-left: 13px;
+}
+.espaco{
+    margin-left: 210px;
+    margin-top: 50px;
+}

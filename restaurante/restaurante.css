@@ -1,0 +1,63 @@
+*{
+    text-align: center;
+}
+ol li{
+    display: inline-block;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+ol li a{
+    color: #ffbd18;;
+    padding: 1em;
+    text-decoration: none;
+    background-color: #F9F1DC;
+    border-bottom: 1px solid black; 
+}
+img{
+    width: 8%;
+}
+figure img{
+    border-bottom: 2px solid #F5BD26;
+    border-top: 2px solid #F5BD26;
+    margin: auto;
+    display: block;
+    width: 60%;
+}
+ul{
+    margin: 0 auto;
+    width: 60em;
+    padding: 0;
+}
+ul li{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+}
+ul li img{
+    width: 100%;
+}
+h1{
+    font-style: italic;
+    font-family: Garamond;
+}
+hr{
+    border: 1px solid #F9F1DC;
+}
+p{
+    font-family: Garamond;
+    margin: 50px;
+}
+ol li a:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+    color:#ffbd18; 
+}
+#comida{
+    font-size: 30px;
+}
+#cardapio{
+    font-size: 23px;
+}
+#horario{
+    font-size: 22px;
+}

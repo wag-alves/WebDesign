@@ -1,0 +1,12 @@
+/* body{ */
+    /* margin: 0; se eu deixar isso tudo fica colado  */
+/* } */
+figure{
+    background-color: aqua;
+    margin: 0; 
+    margin-right: 2em; /* dá uma distancia da imagem para as letras*/
+    float: left; /* agora a imagem fica a esquerda*/
+}
+address{
+    clear: both; /*agora as palavras ficam embaixo das palavras*/
+}

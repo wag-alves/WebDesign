@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+table thead{
+    background-color: #F5C48A;
+    
+}
+table{
+    margin: auto;    
+    margin-top: 50px;
+    text-align: center;
+    border-collapse: collapse;
+    width: 30%;
+}
+th{
+    padding: 16px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+.azul{
+    background-color: #038A8E; 
+    color: white;
+    padding: 20px;
+}
+.azul_claro{
+    background-color: #0697A6; 
+    color: white;
+    margin: 30px;
+}
+td{
+    padding: 10px;
+}
+img{
+    padding-right: 3px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="formu.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Autenticação</legend>
+            <p>
+                <label>Login:<input type="text" id="login" class="info"></label>
+            </p>
+            <p>
+                <label>Senha:<input type="password" id="senha" class="info"></label>
+            </p>
+            <p>
+                <label>Conf. Senha:<input type="password" id="confsenha" class="info"></label>
+            </p>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label>Nome:<input type="text" id="nome" class="info"></label>
+            </p>
+            <p>
+                <label>Email:<input type="email" id="email" class="info"></label>
+            </p>
+            <p>
+                <label>CPF:<input type="number" id="cpf" class="info"></label>
+            </p>
+            <p>
+                <label>Telefone:<input type="tel" id="tel" class="info"></label>
+            </p>
+            <p>
+                <label>Data de Nascimento:<input type="date" id="data" class="info"></label>
+            </p>
+            <label for="place" class="lugar">Uf:</label>
+            <select id="place" class="lugar_opcao">
+                <option value="rn">RN</option>
+                <option value="pb">PB</option>
+                <option value="pe">PE</option>
+                <option value="ce">CE</option>
+            </select>
+            <p>
+                <label>Estado:<input type="text" id="estado" class="info"></label>
+            </p>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <div>Formação:
+                <div id="formacao">
+                    <label><input type="radio" id="medio" name="dados" class="ensino">Médio completo</label>
+                    <label><input type="radio" id="incompleto" name="dados" class="ensino">Superior incompleto</label>
+                    <label><input type="radio" id="completo" name="dados" class="ensino">Superior completo</label>
+                    <label><input type="radio" id="mestrado" name="dados" class="ensino">Mestrado</label>
+                </div>
+            </div>
+            <div>Áreas de interesse:
+                <div id="interesse">
+                    <label><input type="checkbox" name="inter" value="programa">Programação</label>
+                    <label><input type="checkbox" name="inter" value="design">Design</label>
+                    <label><input type="checkbox" name="inter" value="manu">Manutenção</label>
+                </div>
+            </div>
+            <div>
+                <label>Currículo:<input type="file" id="curriculo"></label>
+            </div>
+            <br>
+            <div><label>Descrição curta: <br><textarea id="descricao"></textarea></label></div>
+        </fieldset>
+    </form>
+    <label class="retorno">Receber retorno por E-mail<input type="checkbox" checked></label><br>
+    <input type="submit" id="enviar">
+</body>
+</html>

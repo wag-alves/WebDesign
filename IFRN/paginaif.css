@@ -1,0 +1,15 @@
+h1{
+    background-color: #1C1D38;
+    color: azure;
+    height: 40px;
+    text-align: center;
+}
+body{
+    background-color: #D4D8DC;
+}
+li{
+    list-style-image: url(setam.png);
+}
+h2{
+    background-color:#F5B700;
+}

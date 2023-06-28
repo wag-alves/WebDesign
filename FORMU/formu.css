@@ -1,0 +1,88 @@
+*{
+    color: white;
+    font-family: tahoma, arial;
+}
+fieldset legend{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.3);
+    width: 200px;
+}
+fieldset{
+    max-width: 790px;
+    min-height: 100px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 0.8em;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    margin: 10px 400px;
+}
+body{
+    background-image: linear-gradient(to bottom right, #00324d, #53bb66);
+    background-repeat: no-repeat;
+    margin: 300px 0;
+}
+p label{
+    margin-left: 28px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 300px;
+}
+.info{
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 15em;
+}
+div{
+    padding-left: 30px;
+    display: inline-block;
+}
+.lugar{
+    padding-left: 30px;
+    padding-right: 230px;
+}
+.lugar_opcao{
+    background-color: transparent;    
+    height: 2em;
+    width: 15em;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+option{
+    color: black;
+}
+p input{
+    height: 2em;
+    width: 15em;
+}
+#curriculo{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-left: 140px;
+    padding: 7px 60px 7px 7px;
+    margin-bottom: 10px;
+}
+textarea{
+    background-color: transparent;    
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0px 600px 200px 0px;    
+    margin-bottom: 20px;
+}
+#enviar{
+    margin-left: 970px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    border-radius: 1em;
+    border: 0;
+    color: black;
+    width: 12em;
+    height: 2.4em;
+}
+#interesse{
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+#formacao{
+    margin-bottom: 10px;
+    padding-left: 80px;
+}
+.retorno{
+    margin-left: 1000px;
+}

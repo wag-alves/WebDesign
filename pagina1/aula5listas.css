@@ -1,0 +1,17 @@
+body{
+    background-color: lightgrey;
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+   background-color: grey; 
+   list-style-image: url(lua.png);
+   /* border: 1px solid black; */
+}
+ol{
+    list-style-type: square;
+    list-style-position: inside;
+}
+ul{
+    list-style-type: decimal;
+}
