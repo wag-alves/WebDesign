@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    justify-content: space-around;
+    display: flex;
+    padding: 20px 0px;
+}
+footer{
+    background-color: black;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    background-color: transparent;
+    border: 1px solid rgb(170, 170, 170);
+}
+main{
+    width: 66em;
+    margin: 0 auto;
+    background-color: rgb(248, 248, 248);
+}
+div{
+    border: rgb(211, 211, 211) solid 2px;
+    width: 20em;
+    height: 17em;
+    border-radius: 10px;
+    margin: 10px 0;
+    background-color: white;
+}
+.info{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.navegar li{
+    color: white;
+    border: gray solid 1px;
+    padding: 5px 28px;
+}
+.info_nav{
+    width: 45em;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    display: flex;
+    list-style-type: none;
+}
+.vinga{
+    padding: 50px 0px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.vinga > div{
+    border-radius: 100px;
+    height: 9em;
+    width: 9em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: white;
+}
+#logo{
+    width: 70px;
+    height: 30px;
+}
+.midia_social{
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+}
+.info div img{
+    width: 17em;
+}
+.info div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    text-align: center;
+    width: 16em;
+}
+p{
+    width: 17em;
+    color: rgb(140, 140, 140);
+    text-align: center;
+}
+.navegar li:hover{
+    background-color: gray;
+}
