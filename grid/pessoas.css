@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto Mono', monospace;
+}
+ol{
+    list-style-type: none;
+}
+li{
+    padding: 48px 0 48px 42px;
+}
+a{
+    color: #0F5C77;
+    text-decoration: none;
+}
+header{
+    color: white;
+    padding-left: 42px;
+    background-image: linear-gradient(to left,#7292A6, #224459 );
+    margin-bottom: 14px;
+}
+nav.area-a{
+    background-color: #C5D1D9;
+    grid-area: a;
+    font-size: 2em;
+}
+section.area-b{
+    grid-area: b;
+    font-size: 1.34em;
+    background: #ECECEC;
+    padding: 30px 0 0 20px;
+}
+section.area-c{
+    grid-area: c;
+    background: #ECECEC;
+}
+section.area-d{
+    grid-area: d;
+    background: #ECECEC;
+}
+section.area-e{
+    grid-area: e;
+    background: #ECECEC;
+}
+section.area-f{
+    grid-area: f;
+    background: #ECECEC;
+}
+section.area-g{
+    grid-area: g;
+    background: #ECECEC;
+}
+section.area-h{
+    grid-area: h;
+    background: #ECECEC;
+}
+section.area-i{
+    grid-area: i;
+    background: #ECECEC;
+}
+section.area-j{
+    grid-area: j;
+    background: #ECECEC;
+}
+main{
+    gap: 1em;
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr 2fr 2fr;
+    grid-template-rows: 18em 18em 18em;
+    grid-template-areas: 
+    "a b c c d"
+    "a e f g h"
+    "a i f j j";
+}
+.card{
+    border: 1px solid black;
+    box-sizing: border-box; /* define o padding para dentro*/
+}
+footer{
+    background-color: #224459;
+    text-align: center;
+    color: white;
+    padding: 5em 0;
+    margin-top: 14px;
+}
+.caixa{
+    border: 1px solid #224459;
+}
+.area-b > p{
+    padding-bottom: 14px;
+
+}

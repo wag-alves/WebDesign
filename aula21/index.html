@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid</title>
+    <style>
+        section.area-a{
+            grid-area: a;
+        }
+        section.area-b{
+            grid-area: b;
+        }
+        section.area-c{
+            grid-area: c;
+        }
+        section.area-d{
+            grid-area: d;
+        }
+        section.area-e{
+            grid-area: e;
+        }
+        .card{
+            border: 1px solid black;
+            font-size: 2em;
+            background: lightblue;
+            box-sizing: border-box; /* define o padding para dentro*/
+        }
+        main{
+            gap: 2em; /* distancia entre as células*/
+            grid-template-rows: 15em 30em 30em;
+            grid-template-columns: 1fr 1fr 2fr; /*largura das colunas, fr devide a página em fração, no caso a página tem 4 partes que cada um pega sua parte*/
+            grid-template-areas:
+            "a b b" /*Não consigo fazer um L e  deixar o A em conlunas distintas*/
+            "a d c"
+            "a d e";
+            display: grid;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="area-a card"> <!--O atributo de class classifica e cria um grupo, esse card já é outra class -->
+            <p>A</p>
+        </section>
+        <section class="area-b card">
+            <p>B</p>
+        </section>
+        <section class="area-c card">
+            <p>C</p>
+        </section>
+        <section class="area-d card">
+            <p>D</p>
+        </section>
+        <section class="area-e card">
+            <p>E</p>
+        </section>
+    </main>
+</body>
+</html>
