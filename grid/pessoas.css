@@ -28,7 +28,7 @@ section.area-b{
     grid-area: b;
     font-size: 1.34em;
     background: #ECECEC;
-    padding: 30px 0 0 20px;
+    padding: 49px 10px 0 20px;
 }
 section.area-c{
     grid-area: c;
@@ -37,6 +37,8 @@ section.area-c{
 section.area-d{
     grid-area: d;
     background: #ECECEC;
+    background-image: url(trabalho/palestrantes/amanda.jpg);
+    background-position: 29%;
 }
 section.area-e{
     grid-area: e;
@@ -89,4 +91,23 @@ footer{
 .area-b > p{
     padding-bottom: 14px;
 
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    width: 88%;
+}
+td{
+    border: white 2px solid;
+}
+h2{
+    padding: 1.5em 0 1.4em 1.3em;
+    font-size: xx-large;
+}
+h1{
+    padding-top: 0.7em;
+}
+header p{
+    padding-bottom: 1.2em;
 }
