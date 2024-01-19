@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num = 10
+        let temp = num * "5"
+        const nome = prompt("Informe seu nome: ");
+        document.body.innerHTML += `Seu nome é <strong>${nome}</strong><br/>`;
+        document.body.innerHTML += `Seu nome tem <strong>${nome.length}</strong> letras!<br/>`;
+        document.body.innerHTML += `Olha tudo aí <strong>${nome.toUpperCase()}</strong><br/> Index do "A" ${nome.indexOf("a")}<br/> ${nome.slice(0, nome.length)}<br/> Quantas palavras você digitou...${nome.split(" ")}<br/>${nome.toUpperCase()}`;
+        console.log(Number.isNaN(temp));
+        console.log(num.toFixed(2))
+        console.log(temp)
+    </script>
+</body>
+</html>
